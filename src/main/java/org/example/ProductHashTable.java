@@ -12,6 +12,7 @@ public class ProductHashTable {
     public Hashtable<String, Integer> getProduct_balances() {
         return product_balances;
     }
+
     public int get_product_num(String product_name){
         return product_balances.get(product_name);
     }
